@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+    <theme-platform-version>1.0.0</theme-platform-version>
+    
+    <info>
+    	<website>https://github.com/githubuser/stream-pi-themes/tree/master/client/newtheme/</website>
+        <short-name>newtheme</short-name>
+        <author>githubuser</author>
+        <version>themeversion</version>
+    </info>
+    
+    <theme>
+        <stylesheets>
+            <stylesheet>res/style.css</stylesheet>
+        </stylesheets>
+    </theme>
+</configuration>

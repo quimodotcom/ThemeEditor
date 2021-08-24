@@ -1,0 +1,109 @@
+* {
+    -bg-color : insertbgcolorhere;
+    -font-color : insertfontcolorhere;
+    -text-field-prompt-text : blue;
+    -text-field-border-color : blue;
+    -icon-color : -font-color;
+}
+
+Label
+{
+    -fx-text-fill : -font-color ;
+}
+
+.dashboard{
+    -fx-background-image: url("bg.png");
+    -fx-background-repeat:stretch;
+    -fx-background-size:  100%  100%;
+    -fx-background-position: middle ;
+}
+
+.action_box
+{
+	-fx-effect: dropshadow( two-pass-box , rgba(255,255,255,1) , 20,0.6,0,0);
+	-fx-shape: iconshape;
+	-fx-border-color: white;
+}
+
+.dashboard_settings_button
+{
+	-fx-background-color:transparent;
+}
+
+.root {
+    -fx-focus-color: -fx-accent;
+    -fx-base: #003399;
+    -fx-background-color:  #000099;
+    -fx-text-fill: -font-color ;
+}
+
+.ikonli-font-icon
+{
+    -fx-icon-color: -icon-color;
+}
+
+.settings_base, .settings_base_vbox, .settings_button_bar{
+    -fx-background-color :  -bg-color;
+}
+
+
+.settings_base_scroll_pane {
+    -fx-background: -bg-color;
+    -fx-border-color:-bg-color;
+}
+
+
+.text-field
+{
+    -fx-text-fill: -font-color ;
+    -fx-prompt-text-fill: -text-field-prompt-text;
+    -fx-background-color : blue;
+    -fx-border-width : 0 0 1 0;
+    -fx-border-color: -text-field-prompt-text;
+}
+
+
+
+.alert_pane
+{
+    -fx-background-color : -bg-color;
+    -fx-border-color : -bg-color;
+}
+
+.alert_content_pane
+{
+    -fx-background-color: -bg-color;
+    -fx-padding: 5;
+}
+
+.alert_scroll_pane
+{
+    -fx-background:  -bg-color;
+    -fx-border-color:-bg-color;
+}
+
+.alert_button_bar
+{
+    -fx-background-color:-bg-color;
+}
+
+.combo_box
+{
+    -fx-alignment:CENTER_LEFT;
+    -fx-pref-width:200;
+    -fx-padding: 5;
+    -fx-border-width : 1;
+    -fx-border-color : blue;
+    -fx-border-radius : 3;
+}
+
+.combo_box_popup
+{
+    -fx-background: -bg-color;
+    -fx-border-color: -bg-color;
+}
+
+.combo_box_popup_vbox
+{
+    -fx-background-color: -bg-color;
+}

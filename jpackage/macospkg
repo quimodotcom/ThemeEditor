@@ -1,0 +1,1 @@
+jpackage -i /Volumes/BIG\ CUM/Stream-Pi/ThemeEditor/jpackage/input/ -d /Volumes/BIG\ CUM/Stream-Pi/ThemeEditor/jpackage/output -n ThemeEditor --icon /Volumes/BIG\ CUM/Stream-Pi/ThemeEditor/jpackage/icon/icon.icns --main-jar ThemeEditor-1.0A.jar --main-class Main -t pkg
