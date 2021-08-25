@@ -21,6 +21,10 @@ public class Main {
     public void createTheme() throws IOException
     {
         File theDir = new File(System.getProperty("user.home") + "/Stream-Pi/ThemeEditor/newtheme/res/");
+        if(mainApp.exportPath != "")
+        {
+            theDir = new File(mainApp.exportPath);
+        }
         theDir.delete();
         
         InputStream is = getClass().getClassLoader().getResourceAsStream("theme.xml");

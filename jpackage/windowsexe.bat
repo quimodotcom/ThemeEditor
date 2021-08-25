@@ -1,2 +1,1 @@
-jpackage -t exe -i E:\Stream-Pi\ThemeEditor\jpackage\input -d E:\Stream-Pi\ThemeEditor\jpackage\output -n ThemeEditor --icon E:\Stream-Pi\ThemeEditor\jpackage\icon\icon.ico --main-jar ThemeEditor-1.0A.jar --main-class Main
-pause
+jpackage -t exe -i E:\Stream-Pi\ThemeEditor\jpackage\input -d E:\Stream-Pi\ThemeEditor\jpackage\output -n ThemeEditor --icon E:\Stream-Pi\ThemeEditor\jpackage\icon\icon.ico --main-jar ThemeEditor-1.0A.jar --main-class Main --win-menu --win-shortcut
