@@ -17,7 +17,7 @@ Please make sure to update tests as appropriate.
 [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 # DISCLAIMER
-For legal reasons, i am not reponsible for any damages to your system and this program is not associated with the Stream-Pi group!
+For legal reasons, i am not reponsible for any damages to your system and this program is not associated with the Stream-Pi organisation!
 
 # Note From Quimo
 Due to technical issues, a linux version of this program will not be publicly available!
